@@ -1,5 +1,5 @@
-依据在YouTube-8M预训练的VGGish模型，对各样本的单次回答语音提取n*128的特征，特征保存在文件audio_paragraph_features.pickle。
-为什么是n*128?因为1秒的语音特征是1*128，如果单次回答是5.3秒，那特征就是5*128。
+依据在YouTube-8M预训练的VGGish模型，对各样本的单次回答语音提取nx128的特征，特征保存在文件audio_paragraph_features.pickle。
+为什么是nx128?因为0.96S秒的语音特征是1x128，如果单次回答是5.3秒，那特征就是5x128。
 
 执行入口：torchvggish-master里的main.py
 
