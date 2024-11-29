@@ -1,10 +1,13 @@
-**Looking for maintainers** - I no longer have the capacity to maintain this project. If you would like to take over maintenence, please get in touch. I will either forward to your fork, or add you as a maintainer for the project. Thanks.
+依据在YouTube-8M预训练的VGGish模型，对各样本的单次回答语音提取n*128的特征，特征保存在文件audio_paragraph_features.pickle。
+为什么是n*128?因为1秒的语音特征是1*128，如果单次回答是5.3秒，那特征就是5*128。
+
+执行入口：torchvggish-master里的main.py
 
 ---
 
 
 # VGGish
-Download the parameters from the link and save them to the "torchvggish-master" directory.
+下载链接中的参数，并保存到“torchvggish-master”目录下。
 [VGGish](https://drive.google.com/drive/folders/1nRNK8x-7i7a87naxmLTCdi7SjSDaxyqG?usp=sharing)<sup>[1]</sup>, 
 
 
